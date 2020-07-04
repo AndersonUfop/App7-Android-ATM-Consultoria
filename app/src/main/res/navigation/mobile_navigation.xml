@@ -7,31 +7,32 @@
 
     <fragment
         android:id="@+id/nav_principal"
-        android:name="com.cursoandroid.anderson.atmconsultoria.ui.home.HomeFragment"
+        android:name="com.cursoandroid.anderson.atmconsultoria.ui.principal.principalFragment"
         android:label="@string/menu_principal"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_principal" />
 
     <fragment
         android:id="@+id/nav_servicos"
-        android:name="com.cursoandroid.anderson.atmconsultoria.ui.gallery.GalleryFragment"
+        android:name="com.cursoandroid.anderson.atmconsultoria.ui.servicos.servicosFragment"
         android:label="@string/menu_servicos"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_servicos" />
 
     <fragment
         android:id="@+id/nav_clientes"
-        android:name="com.cursoandroid.anderson.atmconsultoria.ui.slideshow.SlideshowFragment"
+        android:name="com.cursoandroid.anderson.atmconsultoria.ui.clientes.clientesFragment"
         android:label="@string/menu_clientes"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_clientes" />
 
     <fragment
         android:id="@+id/nav_contato"
-        android:name="com.cursoandroid.anderson.atmconsultoria.ui.share.ShareFragment"
+        android:name="com.cursoandroid.anderson.atmconsultoria.ui.contato.contatoFragment"
         android:label="@string/menu_contato"
-        tools:layout="@layout/fragment_share" />
+        tools:layout="@layout/fragment_contato" />
 
     <fragment
         android:id="@+id/nav_sobre"
-        android:name="com.cursoandroid.anderson.atmconsultoria.ui.send.SendFragment"
+        android:name="com.cursoandroid.anderson.atmconsultoria.ui.sobre.sobreFragment"
         android:label="@string/menu_sobre"
-        tools:layout="@layout/fragment_send" />
+        tools:layout="@layout/fragment_sobre" />
+
 </navigation>
